@@ -15,3 +15,4 @@ const result = urlChange(`<a href="/aaa">To aaa</a>`, (url: string) => {
 console.log(result)
 // -> 
 // <html><head></head><body><a href="/new_root/aaa">To aaa</a></body></html>
+```
